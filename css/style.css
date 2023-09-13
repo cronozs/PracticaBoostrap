@@ -1,0 +1,43 @@
+:root {
+    --darkColor: #0c0928;
+    --clearColor: #e0ddbb;
+    --linkColor: #68efd2;
+}
+
+html{
+    font-family: 'Gluten', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+body{
+    background-color: var(--darkColor);
+    color: var(--clearColor);
+}
+.linkcolor
+{
+    color: var(--linkColor);
+}
+.limit-image-75
+{
+    max-width: 75%;
+}
+.limit-image-50
+{
+    max-width: 50%;
+}
+.limit-image-25
+{
+    max-width: 25%;
+}
+
+a{
+    color: var(--linkColor);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--clearColor);
+}
